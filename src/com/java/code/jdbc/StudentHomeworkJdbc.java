@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class StudentHomeworkJdbc {
 
     public static String driver = "com.mysql.jdbc.Driver";
-    public static String url = "jdbc:mysql://localhost:3306/homeworkmanager?useUnicode=true&characterEncoding=Utf-8";
+    public static String url = "jdbc:mysql://localhost:3306/homeworkmanager?useSSL=false&useUnicode=true&characterEncoding=Utf-8";
     public static String databaseUser = "root";
     public static String password = "1234";
 

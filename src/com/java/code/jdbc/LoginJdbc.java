@@ -1,7 +1,5 @@
 package com.java.code.jdbc;
 
-import com.java.code.model.Administrators;
-
 import java.sql.*;
 
 /**
@@ -9,13 +7,13 @@ import java.sql.*;
  */
 public class LoginJdbc {
     public static String driver = "com.mysql.jdbc.Driver";//定义驱动
-    public static String url = "jdbc:mysql://localhost:3306/homeworkmanager?useUnicode=true&characterEncoding=utf-8";//定义URL
+    public static String url = "jdbc:mysql://localhost:3306/homeworkmanager?useSSL=false&useUnicode=true&characterEncoding=utf-8";//定义URL
     public static String databseUser = "root";//定义用户名
     public static String password = "1234";//定义密码
     public boolean LoginSelect(String user, String pass, String table) throws Exception {//登录验证  table表示从哪个表中查询
         Connection conn = null;
         //获取连接
-        Class.forName(driver);
+        Class.forName("com.mysql.jdbc.Driver");
 
 
         String sql = "select AdminPassword from " + table + " where AdminId='" + user + "'";

@@ -171,12 +171,6 @@
                 <!--以下可以扩展------------------------------------------------------------------------>
 
 
-
-
-
-
-
-
                 <div class="toogle_wrap">
                     <div class="trigger"><a href="#">Java Web   学生作业管理系统</a></div>
 
@@ -189,7 +183,8 @@
                 </div>
 
             </div>
-        </div><!-- end of right content-->
+        </div>
+        <!-- end of right content-->
 
 
         <div class="sidebar" id="sidebar">
@@ -232,7 +227,8 @@
 
 
         <div class="clear"></div>
-    </div> <!--end of center_content-->
+    </div>
+    <!--end of center_content-->
 
 
 

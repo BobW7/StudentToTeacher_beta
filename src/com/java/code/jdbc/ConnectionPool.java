@@ -9,7 +9,7 @@ import java.util.LinkedList;
  */
 public class ConnectionPool {
 
-    private static String url = "jdbc:mysql://127.0.0.1:3306/school";
+    private static String url = "jdbc:mysql://localhost:3306/school";
     private static String allUrl = url+"?user=root&password=1234&useSSL=false";//user
     private static String driverName = "com.mysql.cj.jdbc.Driver";
 

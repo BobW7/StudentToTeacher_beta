@@ -3,7 +3,7 @@ package com.java.code.jdbc;
 import java.sql.*;
 public class DeleteJdbc {
     public static String driver = "com.mysql.jdbc.Driver";
-    public static String url = "jdbc:mysql://localhost:3306/homeworkmanager?useUnicode=true&characterEncoding=Utf-8";
+    public static String url = "jdbc:mysql://localhost:3306/homeworkmanager?useSSL=false&useUnicode=true&characterEncoding=Utf-8";
     public static String databaseUser = "root";
     public static String password = "1234";
     public static int Delete(String sql) throws Exception {
