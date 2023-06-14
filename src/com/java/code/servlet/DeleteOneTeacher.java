@@ -16,21 +16,21 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-@WebServlet("/deleteonestudent")
 
-public class DeleteOneStudent extends HttpServlet{
-    public DeleteOneStudent()
+@WebServlet("/DeleteOneTeacher")
+public class DeleteOneTeacher extends HttpServlet{
+    public DeleteOneTeacher()
     {}
     protected void processRequest(HttpServletRequest request,HttpServletResponse response)
             throws  ServletException,IOException
     {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        String StudentId=request.getParameter("StudentId");
+        String TeacherId=request.getParameter("TeacherId");
         DeleteJdbc newsRealeseDao = new DeleteJdbc();
-        System.out.println(StudentId);
+        System.out.println(TeacherId);
         try{
-            String sql = "delete from student where studentid='"+StudentId+"'";
+            String sql = "delete from teacher where teacherId='"+TeacherId+"'";
             System.out.println(sql);
             int result = newsRealeseDao.Delete(sql);
             if(result!=0){

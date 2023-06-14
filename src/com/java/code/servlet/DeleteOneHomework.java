@@ -1,5 +1,4 @@
 package com.java.code.servlet;
-
 import com.java.code.jdbc.DeleteJdbc;
 
 import javax.servlet.ServletException;
@@ -16,21 +15,20 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-@WebServlet("/deleteonestudent")
-
-public class DeleteOneStudent extends HttpServlet{
-    public DeleteOneStudent()
+@WebServlet("/DeleteOneHomework")
+public class DeleteOneHomework extends HttpServlet{
+    public DeleteOneHomework()
     {}
     protected void processRequest(HttpServletRequest request,HttpServletResponse response)
             throws  ServletException,IOException
     {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        String StudentId=request.getParameter("StudentId");
+        String HomeworkId=request.getParameter("HomeworkId");
         DeleteJdbc newsRealeseDao = new DeleteJdbc();
-        System.out.println(StudentId);
+        System.out.println(HomeworkId);
         try{
-            String sql = "delete from student where studentid='"+StudentId+"'";
+            String sql = "delete from homework where HomeworkId='"+HomeworkId+"'";
             System.out.println(sql);
             int result = newsRealeseDao.Delete(sql);
             if(result!=0){

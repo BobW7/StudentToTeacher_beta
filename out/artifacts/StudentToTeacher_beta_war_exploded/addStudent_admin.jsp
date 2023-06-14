@@ -103,7 +103,7 @@
                         <td><%=tem.getStudentCreateTime()%>
                         </td>
                         <td><a href="#"><img src="images/trash.gif" alt="" title="" border="0"
-                                             onclick="javascrtpt:window.location.href = 'deleteonestudent?function=check_delete&destination=check_pending.jsp&table=check_pending&newsid=<%=tem.getStudentId()%>'"/></a>
+                                             onclick="javascrtpt:window.location.href = 'deleteonestudent?StudentId=<%=tem.getStudentId()%>'"/></a>
                         </td>
                     </tr>
 

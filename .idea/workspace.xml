@@ -9,23 +9,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a589f95-7cee-4eb9-b7c9-e30f94696db8" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="6a589f95-7cee-4eb9-b7c9-e30f94696db8" name="Default Changelist" comment="尝试补全那个删除学生">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/code/servlet/DeleteOneHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/code/servlet/DeleteOneTeacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentToTeacher_beta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentToTeacher_beta.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/addHandleHomework.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/addHandleHomework.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/addHomework.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/addHomework.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/addStudent_admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/addStudent_admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentToTeacher_beta/META-INF/StudentToTeacher_beta.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/CourseJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/CourseJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/Course_ClassJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/Course_ClassJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/DeleteJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/DeleteJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/HandleHomeworkJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/HandleHomeworkJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/addTeacher_admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/addTeacher_admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/checkHandleHomework.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/checkHandleHomework.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/teacher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentToTeacher_beta_war_exploded/teacher.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/HomeworkJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/HomeworkJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/LoginJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/LoginJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/StudentClassJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/StudentClassJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/StudentHomeworkJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/StudentHomeworkJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/StudentJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/StudentJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/code/jdbc/TeacherJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/jdbc/TeacherJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/code/servlet/DeleteOneStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/code/servlet/DeleteOneStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addHandleHomework.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addHandleHomework.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addHomework.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addHomework.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/addStudent_admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addStudent_admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addTeacher_admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addTeacher_admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/checkHandleHomework.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/checkHandleHomework.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/teacher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/teacher.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +65,18 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1ZLiDZpiW42eKFju6rgOS1cHlDC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +89,7 @@
       <recent name="D:\Git仓库\StudentToTeacher_beta\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 服务器.Tomcat 7.0.100">
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.74">
     <configuration name="ConnectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.code.ConnectTest" />
       <module name="StudentToTeacher_beta" />
@@ -94,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 7.0.100" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.74" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="13">
+    <configuration name="Tomcat 9.0.74" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.74" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="13">
       <deployment>
         <artifact name="StudentToTeacher_beta:war exploded">
           <settings>
@@ -180,6 +189,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat 服务器.Tomcat 9.0.74" />
+      <item itemvalue="应用程序.ConnectTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.ConnectTest" />
@@ -249,8 +262,23 @@
       <workItem from="1686323018691" duration="17000" />
       <workItem from="1686323081785" duration="63000" />
       <workItem from="1686656102728" duration="29000" />
-      <workItem from="1686663006165" duration="2004000" />
+      <workItem from="1686663006165" duration="11345000" />
     </task>
+    <task id="LOCAL-00001" summary="尝试补全那个删除学生">
+      <created>1686667313120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686667313120</updated>
+    </task>
+    <task id="LOCAL-00002" summary="尝试补全那个删除学生">
+      <created>1686667325862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686667325862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,12 +295,20 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="尝试补全那个删除学生" />
+    <option name="LAST_COMMIT_MESSAGE" value="尝试补全那个删除学生" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <breakpoint enabled="true" type="java-exception">
           <properties class="com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException" package="com.mysql.jdbc.exceptions.jdbc4" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException" package="com.mysql.jdbc.exceptions.jdbc4" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

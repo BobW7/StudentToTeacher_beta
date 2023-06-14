@@ -34,7 +34,7 @@
 <div id="panelwrap">
 
     <div class="header">
-        <div class="title"><a href="#">学生作业管理系统（学生版）</a></div>
+        <div class="title"><a href="#">学生作业管理系统（教师版）</a></div>
 
         <div class="header_right">欢迎 ${username},  <a href="index.jsp" class="logout">退出</a>
         </div>
@@ -75,7 +75,6 @@
                         <th>标题</th>
                         <th>创建时间</th>
                         <th>查看</th>
-                        <th>删除</th>
                     </tr>
                     </thead>
                     <tfoot>
@@ -100,9 +99,7 @@
                         <td><a href="#"><img src="images/checkInfo.png" alt="" title="" border="0"
                                              onclick="queryHandleHomeworkInfo('<%=tem.getHandleHomeworkId()%>','HandleHomework')"/></a>
                         </td>
-                        <td><a href="#"><img src="images/trash.gif" alt="" title="" border="0"
-                                             onclick="javascrtpt:window.location.href = 'DeleteOneNews?function=check_delete&destination=check_pending.jsp&table=check_pending&newsid=<%=tem.getHomeworkId()%>'"/></a>
-                        </td>
+
                     </tr>
 
 
@@ -202,16 +199,7 @@
 
 
 
-                <div class="toogle_wrap">
-                    <div class="trigger"><a href="#">Java Web   学生作业管理系统</a></div>
 
-                    <div class="toggle_container">
-                        <p>
-                            在本页面您能够查看所有的课程，您可以点击“创建新班级”按钮来创建新的班级；
-                            对于需要删除的课程，您可以删除该课程，课程将无法被学生加入并将从系统中删除。
-                        </p>
-                    </div>
-                </div>
 
             </div>
         </div><!-- end of right content-->
@@ -247,11 +235,6 @@
                 <li><a href="#">帮助</a></li>
             </ul>
 
-            <h2>文本提示</h2>
-            <div class="sidebar_section_text">
-                在本页面您能够查看所有的课程，您可以点击“创建新班级”按钮来创建新的班级；
-                对于需要删除的课程，您可以删除该课程，课程将无法被学生加入并将从系统中删除。
-            </div>
 
         </div>
 

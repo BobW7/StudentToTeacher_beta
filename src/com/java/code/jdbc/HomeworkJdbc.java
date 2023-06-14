@@ -97,6 +97,30 @@ public class HomeworkJdbc {
         }
     }
 
+    public ArrayList TeacherQueryAllHomework(String TeacherId)
+            throws Exception
+    {
+        Connection conn = null;
+        ArrayList newsRealese = new ArrayList();
+        try{
+            Class.forName(driver);
+            conn = DriverManager.getConnection(url,databaseUser,password);
+            String sql = "select * from homework where TeacherId ='" +TeacherId+"'";
+            Statement statement = conn.createStatement();
+            newsRealese = getHomework(statement,sql);
+            statement.close();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            try{
+                if(conn!=null){
+                    conn.close();
+                    conn=null;
+                }
+            }catch(Exception ex){}
+            return newsRealese;
+        }
+    }
 
     public static int insertOneHomework(HashMap<String, String> addnews_list, String table) throws Exception {//插入一个新的学生
         Connection conn = null;
